@@ -40,9 +40,8 @@ var app = {
 				  ref.addEventListener('loadstart', myCallback);
 				  ref.removeEventListener('loadstart', myCallback);
 
-				  $(".preloader")
-					.fadeOut();
-
+				 /* $(".preloader")
+					.fadeOut();*/
 				if (localStorage.login_is) {
 					$(".splash")
 						.hide();
