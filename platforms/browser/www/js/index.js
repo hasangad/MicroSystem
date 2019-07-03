@@ -37,6 +37,8 @@ var app = {
 				  $(".skip_to_home")
 				  .click(function() {
 					var ref = cordova.InAppBrowser.open('https://MicroSystemEgypt.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=yes');
+					ref.addEventListener('loadstart', myCallback);
+				  ref.removeEventListener('loadstart', myCallback);
 
 					  $(".splash")
 						  .animate({
@@ -45,11 +47,9 @@ var app = {
 			  });
 				  var myCallback = function(event) { alert(event.url);
 				 }
-				  ref.addEventListener('loadstart', myCallback);
-				  ref.removeEventListener('loadstart', myCallback);
-
-				 /* $(".preloader")
-					.fadeOut();*/
+				  
+				 $(".preloader")
+					.fadeOut();
 				if (localStorage.login_is) {
 					$(".splash")
 						.hide();

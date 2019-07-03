@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <link rel='stylesheet' id='bootstrap.min-css' href="css/bootstrap.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap.min-css-rtl' href='css/bootstrap-rtl.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='css-style' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='css-style' href="css/fa/css/font-awesome.min.css" type='text/css' media='all' />
   </head>
   <body>
     <div class="preloader"></div>
     <div class="splash">
-      <a class="skip_to_home btn btn-primary" style="display:none">تخطي</a>
-      <a class="check_interent btn btn-danger" style="display:none">أنت غير متصل بالانترنت !</a>
+      <a class="skip_to_home btn btn-warning" style="display:none">تخطي</a>
+      <a class="check_interent btn btn-warning" style="display:none">أنت غير متصل بالانترنت !</a>
     </div>
     
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -18,13 +22,13 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
       app.initialize();
-      $(".skip_to_home")
+     /* $(".skip_to_home")
 			.click(function() {
 				$(".splash")
 					.animate({
 						"right": "-100%"
 					});
-        });
+        });*/
     </script>
     
   </body>
