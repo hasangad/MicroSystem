@@ -12,7 +12,7 @@
   <preference name="BackgroundColor" value="#ffffff"/>
   <preference name="fullscreen" value="true"/>
   <preference name="StatusBarOverlaysWebView" value="true"/>
-<preference name="phonegap-version" value="cli-7.1.0"/>
+<preference name="phonegap-version" value="cli-8.0.0"/>
   <preference name="pgb-builder-version"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="portrait"/>
