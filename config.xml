@@ -32,7 +32,6 @@
   <plugin name="cordova-plugin-dialogs"/>
   <plugin name="cordova-plugin-network-information"/>
   <plugin name="cordova-plugin-statusbar"/>
-  <plugin name="cordova-plugin-vibration"/>
   <preference name="StatusBarBackgroundColor" value="#ffffff"/>
   <icon src="www/icon.png"/>
   <icon gap:platform="android" src="www/icon.png"/>
