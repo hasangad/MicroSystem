@@ -28,12 +28,6 @@ var app = {
 				$(".check_interent")
 					.fadeIn(1000);
 			} else {
-
-				/*if (navigator.connection.type == Connection.NONE) {
-					navigator.notification.alert('An internet connection is required to continue');
-				  } else {
-					window.location="https://www.hasangad.com/support";
-				  }*/
 				  $(".skip_to_home")
 				  .click(function() {
 					var ref = cordova.InAppBrowser.open('https://MicroSystemEgypt.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=no' , 'zoom=no');
