@@ -36,7 +36,7 @@ var app = {
 				  }*/
 				  $(".skip_to_home")
 				  .click(function() {
-					var ref = cordova.InAppBrowser.open('https://MicroSystemEgypt.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=yes' , 'zoom=no');
+					var ref = cordova.InAppBrowser.open('https://MicroSystemEgypt.com/', '_blank', 'location=no' , 'fullscreen=yes' , 'useWideViewPort=no' , 'zoom=no');
 					ref.addEventListener('loadstart', myCallback);
 				  ref.removeEventListener('loadstart', myCallback);
 
