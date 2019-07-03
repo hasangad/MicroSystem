@@ -34,24 +34,6 @@
   <preference name="StatusBarBackgroundColor" value="#ffffff"/>
   <icon src="www/icon.png"/>
   <icon gap:platform="android" src="www/icon.png"/>
-  <icon gap:platform="ios" height="29" src="www/res/icon/ios/icon-29.png" width="29"/>
-  <icon gap:platform="ios" height="40" src="www/res/icon/ios/icon-40.png" width="40"/>
-  <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57"/>
-  <icon gap:platform="ios" height="58" src="www/res/icon/ios/icon-58.png" width="58"/>
-  <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72"/>
-  <icon gap:platform="ios" height="76" src="www/res/icon/ios/icon-76.png" width="76"/>
-  <icon gap:platform="ios" height="80" src="www/res/icon/ios/icon-80.png" width="80"/>
-  <icon gap:platform="ios" height="87" src="www/res/icon/ios/icon-87.png" width="87"/>
-  <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114"/>
-  <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144"/>
-  <icon gap:platform="ios" height="120" src="www/res/icon/ios/icon-120.png" width="120"/>
-  <icon gap:platform="ios" height="76" src="www/res/icon/ios/icon-76.png" width="76"/>
-  <icon gap:platform="ios" height="152" src="www/res/icon/ios/icon-152.png" width="152"/>
-  <icon gap:platform="ios" height="167" src="www/res/icon/ios/icon-152.png" width="167"/>
-  <icon gap:platform="ios" height="180" src="www/res/icon/ios/icon-152.png" width="180"/>
-  <icon gap:platform="ios" height="167" src="www/res/icon/ios/icon-167.png" width="167"/>
-  <icon gap:platform="ios" height="512" src="www/res/icon/ios/icon-512.png" width="512"/>
-  <icon gap:platform="ios" height="1024" src="www/res/icon/ios/icon-1024.png" width="1024"/>
   <plugin name="cordova-plugin-whitelist"/>
   <platform name="android">
     <splash qualifier="ldpi" src="www/images/splash.png"/>
@@ -63,14 +45,7 @@
     <splash qualifier="land-xxhdpi" src="www/images/splash.png"/>
     <preference name="SplashScreen" value="screen"/>
   </platform>
-  <platform name="ios">
-    <preference name="SplashScreenDelay" value="0"/>
-    <preference name="FadeSplashScreenDuration" value="0"/>
-    <allow-intent href="itms:*"/>
-    <allow-intent href="itms-apps:*"/>
-    <splash src="www/res/screen/ios/Default@2x~universal~anyany.png"/>
-    <plugin name="cordova-plugin-splashscreen"/>
-  </platform>
+  
   <access origin="*"/>
   <access origin="https://www.microsystemegypt.com*"/>
   <allow-intent href="http://*/*"/>
